@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{E740E32B-76EC-4E8D-8B13-68003A62CD03}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>OOPDS_Assignment_2</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bg.jpg" />
+    <Content Include="icon.jpg" />
+    <Content Include="JavaDir\Database.java" />
+    <Content Include="JavaDir\Detail.java" />
+    <Content Include="JavaDir\Dose.java" />
+    <Content Include="JavaDir\Finder.java" />
+    <Content Include="JavaDir\GuiConfirmWindow.java" />
+    <Content Include="JavaDir\GuiInterface.java" />
+    <Content Include="JavaDir\GuiLogin.java" />
+    <Content Include="JavaDir\GuiMenuMOH.java" />
+    <Content Include="JavaDir\GuiMenuRecipient.java" />
+    <Content Include="JavaDir\GuiMenuSimulation.java" />
+    <Content Include="JavaDir\GuiMenuVC.java" />
+    <Content Include="JavaDir\GuiPopupWindow.java" />
+    <Content Include="JavaDir\GuiRegister.java" />
+    <Content Include="JavaDir\GuiSelect.java" />
+    <Content Include="JavaDir\Keys.java" />
+    <Content Include="JavaDir\MOH.java" />
+    <Content Include="JavaDir\Recipient.java" />
+    <Content Include="JavaDir\Vaccine.java" />
+    <Content Include="JavaDir\Vc.java" />
+    <Content Include="JavaDir\VcDaily.java" />
+    <Content Include="JavaDir\VcSimulationHall.java" />
+    <Content Include="JavaDir\VcStatus.java" />
+    <Content Include="MainWindow.java" />
+    <Content Include="Styling.css" />
+    <Content Include="TextDir\DailyRecords.txt" />
+    <Content Include="TextDir\Moh.txt" />
+    <Content Include="TextDir\Recipients.txt" />
+    <Content Include="TextDir\Vaccine.txt" />
+    <Content Include="TextDir\Vcs.txt" />
+    <Content Include="userIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vscode\launch.json" />
+    <None Include=".vscode\settings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\TC1V_Group6_Codes\FileContentIndex\935bf7b3-112f-4832-8bfc-8fe0238b740b.vsidx" />
+    <None Include=".vs\TC1V_Group6_Codes\FileContentIndex\read.lock" />
+    <None Include=".vs\TC1V_Group6_Codes\v17\.suo" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="TextDir\desktop.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\OOPDS Assignment 2\v17\" />
+    <Folder Include=".vs\TC1V_Group6_Codes\FileContentIndex\merges\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

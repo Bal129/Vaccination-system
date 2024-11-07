@@ -1,0 +1,2 @@
+C:\Users\Iqbal\Documents\MMU\Degree 3\OOPDS TCP1201\Asg2Submission\TC1V_Group6_Codes\obj\x86\Debug\OOPDS Assignment 2.vbproj.AssemblyReference.cache
+C:\Users\Iqbal\Documents\MMU\Degree 3\OOPDS TCP1201\Asg2Submission\TC1V_Group6_Codes\obj\x86\Debug\OOPDS Assignment 2.vbproj.CoreCompileInputs.cache
